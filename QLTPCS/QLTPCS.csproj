@@ -90,162 +90,27 @@
     <Compile Include="entity\SanPham.cs" />
     <Compile Include="entity\SanPham_LoaiSanPham.cs" />
     <Compile Include="entity\tkdd.cs" />
-    <Compile Include="frm_diemDanh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_diemDanh.Designer.cs">
-      <DependentUpon>frm_diemDanh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_khachHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_khachHang.Designer.cs">
-      <DependentUpon>frm_khachHang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_loaiSanPham.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_loaiSanPham.Designer.cs">
-      <DependentUpon>frm_loaiSanPham.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_login.Designer.cs">
       <DependentUpon>frm_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_main.Designer.cs">
-      <DependentUpon>frm_main.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_nhac.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_nhac.Designer.cs">
-      <DependentUpon>frm_nhac.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_nhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_nhanVien.Designer.cs">
-      <DependentUpon>frm_nhanVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_nhaPhanPhoi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_nhaPhanPhoi.Designer.cs">
-      <DependentUpon>frm_nhaPhanPhoi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_phieuNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_phieuNhap.Designer.cs">
-      <DependentUpon>frm_phieuNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_reportPhieuNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_reportPhieuNhap.Designer.cs">
-      <DependentUpon>frm_reportPhieuNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_sanPham.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_sanPham.Designer.cs">
-      <DependentUpon>frm_sanPham.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_signup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_signup.Designer.cs">
+    <Compile Include="frm_signup.designer.cs">
       <DependentUpon>frm_signup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_taoHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_taoHoaDon.Designer.cs">
-      <DependentUpon>frm_taoHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_tkDiemDanh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_tkDiemDanh.Designer.cs">
-      <DependentUpon>frm_tkDiemDanh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_tkDoanhThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_tkDoanhThu.Designer.cs">
-      <DependentUpon>frm_tkDoanhThu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_tkSanPham.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_tkSanPham.Designer.cs">
-      <DependentUpon>frm_tkSanPham.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_xemHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_xemHoaDon.Designer.cs">
-      <DependentUpon>frm_xemHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reportings\ReportPhieuNhap.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="frm_diemDanh.resx">
-      <DependentUpon>frm_diemDanh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_khachHang.resx">
-      <DependentUpon>frm_khachHang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_loaiSanPham.resx">
-      <DependentUpon>frm_loaiSanPham.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_main.resx">
-      <DependentUpon>frm_main.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_nhac.resx">
-      <DependentUpon>frm_nhac.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_nhanVien.resx">
-      <DependentUpon>frm_nhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_nhaPhanPhoi.resx">
-      <DependentUpon>frm_nhaPhanPhoi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_phieuNhap.resx">
-      <DependentUpon>frm_phieuNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_reportPhieuNhap.resx">
-      <DependentUpon>frm_reportPhieuNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_sanPham.resx">
-      <DependentUpon>frm_sanPham.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_signup.resx">
       <DependentUpon>frm_signup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_taoHoaDon.resx">
-      <DependentUpon>frm_taoHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_tkDiemDanh.resx">
-      <DependentUpon>frm_tkDiemDanh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_tkDoanhThu.resx">
-      <DependentUpon>frm_tkDoanhThu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_tkSanPham.resx">
-      <DependentUpon>frm_tkSanPham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_xemHoaDon.resx">
-      <DependentUpon>frm_xemHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
